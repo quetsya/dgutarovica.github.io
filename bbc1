@@ -1,0 +1,171 @@
+<html>
+     <head>
+	       <title> BBC LAPA</title>
+		  <link rel="stylesheet" type="text/css" href="bbc.css">
+		   
+	  </head>
+
+      <body>
+        <div id="topbar"> 
+		    
+			<img id="logo" src="bbc-logo.png">
+			
+			<div id="signin-div" class="topbar-section">
+			
+			  <img id="signin-attels" src="signin-attels.png">
+			  
+			  <span id="signin-text">Sign in</span>
+			
+		</div>
+			
+
+			
+			<div id="zvans-div">
+			
+			       			<img id="bultlinija" src="bultlinija.png">
+							
+							<img id="zvans-attels" src="zvans.png">
+							
+							
+			</div>
+			
+			<div class="topbar-section topbar-menu">
+			   
+			   News
+			   
+			</div>
+			
+				<div class="topbar-section topbar-menu">
+			   
+			   Sports
+			   
+			</div>
+				<div class="topbar-section topbar-menu">
+			   
+			   Weather
+			   
+			</div>
+				<div class="topbar-section topbar-menu">
+			   
+			    iPlayer
+			   
+			</div>
+				<div class="topbar-section topbar-menu">
+			   
+			   TV
+			   
+			</div>
+				<div class="topbar-section topbar-menu">
+			   
+			   More
+			   
+			   <img  id="more-bulta"src="more-bulta.png">
+			   
+			</div>
+			<div class="topbar-section">
+			     <input id="search-box" type="text" value="Search">
+				 
+				 <input type="image" id="lupa" src="lupa.png">
+			
+			
+			</div>
+			
+			
+		</div>	
+		
+		<div class="clear"></div>
+		
+		<div id="menu-bar-konteiners">
+		
+		    <div id="menu-bar">
+			
+			    <h1>NEWS</h1>
+				
+				<div id="local-news">
+				
+				    <a href="">Find local news</a>
+				  
+				    <img src="pointer.png">
+				  
+				</div>
+			
+			
+			
+			</div>
+		
+		
+		</div>
+		
+		<div id="menu-bar-2-konteiners">
+		
+		    <div id="menu-bar-2"> 
+			
+			   <a href="">Sakums</a>
+			   
+			   <a href="">LV</a>
+			   
+			   <a href="">Pasaule</a>
+			   
+			   <a href="">Bizness</a>
+			   
+			   <a href="">Tehnika</a>
+			   
+			   <a href="">Zinatne</a>
+			   
+			   <a href="">Veseliba</a>
+			   
+			   <a href="">Izglitiba</a>
+			   
+			   <a href="">Kultura & Maksla</a>
+			   
+			   <a href="">Audio & Video</a>
+			   
+			   <a href="" class="bez-linijas">Vairak</a>
+			   
+			   <img src="bulta-leju.png" id="bulta-leju">
+			
+			
+			</div>
+		
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div id="lapas-ietvars">
+
+             <div id="galvenais-raksts">
+			 
+			    <h2>Tehnologijas</h2>
+				<div id="raksta-ietvars">
+				
+				 <h3><a href="">Xiaomi Mi Note 10 apskats</a></h3>
+				
+				   <div id="raksta-saturs">
+				
+				    <p>Lai arī Xiaomi parasti nav dēvējams par pašu skaļāk dzirdamo viedtālruņu ražotāju, 
+					tomēr šajā rudenī Xiaomi nācis klajā ar vairākiem interesantiem paziņojumiem.
+					Viens no tiem bija Xiaomi Mi Mix Alpha viedtālrunis ar ekrānu, kas apliekts arī ap tā aizmugures daļu, 
+					bet tiek lēsts, ka šos viedtālruņus Xiaomi saražojis ļoti ierobežotā apjomā.
+					Daži uzskata, ka pirmais Mi Mix Alpha laidiens bijis vien 500 ierīces.</p>
+					
+					
+					<p><img src="pulkstens.png"> 30.marts 2020  <a href="" id="sadalas-saite">
+					Tehnologijas</a></p>
+					
+					<hr id="raksta-hr" align="left">
+					
+				    </div>	
+					<img id="raksta-attels" src="raksta_attels.png">
+					<p><a class="raksta-saite" href=""> Huawei Mate20 Pro</a></p>
+					<p><a class="raksta-saite" href=""> Samsung Galaxy s10 sērijai</a></p>
+				
+				
+				 </div>
+				 <img id="bbcc" src="bbcc.png">
+
+
+		</div>
+		
+	</body>
+
+</html>	

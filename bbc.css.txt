@@ -1,0 +1,434 @@
+<html>
+     <head>
+	       <title> BBS LAPA</title>
+		   <style type="text/css">
+		        #topbar {
+				    width: 1100px;
+					margin: 0 auto;
+					height: 40px;
+					
+				}
+		     
+			 
+			    body {
+				    margin: 0;
+					padding: 0;
+					font-family: Helvetica, Arial, sans-serif;
+				}
+		   
+		        #logo {
+				     margin-top: 8px;
+					 width: 100px;
+					 float: left;
+					 margin-right: 8px;
+				
+				}
+				
+				.topbar-section {
+				    float: left;
+					border-left: 1px #CCCCC solid;
+					height: 100%;
+				   
+				   
+				}
+				
+				#signin-attels {
+				      width: 25px;
+					  margin: 11px 15px;
+					  float: left;
+				
+				
+				}
+				
+				
+				#signin-text {  
+				    font-weight: bold;
+					font-size: 90%;
+					position: relative;
+					top: 15px;
+					padding-right: 50px;
+				
+				}
+				
+				#bultlinija {
+				     float: left;
+					 height: 40px;
+					 
+				}
+				
+				
+			    #zvans-attels {
+				    height: 25px;
+					margin: 9px 8px;
+				
+				}
+				
+				
+				#zvans-div {
+				    float:left;
+				
+				}
+				
+				.topbar-menu {
+				     font-weight: bold;
+					 font-size: 90%;
+					 padding: 13px 15px 0 15px;
+					 height: 27px;
+				
+				}
+				
+				#more-bulta {
+				    width: 16px;
+					margin-left: 20px;
+					
+				}
+				
+				#search-box {
+				    background-color: #E4E4E4;
+					border: none;
+					font-weight: bold;
+				    font-size: 14px;
+					padding: 5px;
+					margin: 5px 0 5px 5px;
+					float: left;
+					
+				}
+			    
+				#lupa {
+				   height: 27px;
+				   margin-top: 5px;
+		
+				}
+				
+				.clear {
+				    clear: both;
+				}
+				
+				#menu-bar-konteiners {
+				    background-color: #BB1919;
+					width: 100%;
+					height: 70px;
+				
+				}
+		        
+				#menu-bar {
+				    width: 1020px;
+					margin: 0 auto;
+					
+				}
+				
+				h1 {
+				    padding: 0;
+					margin: 0;
+					color: white;
+					font-size: 40px;
+					font-weight: normal;
+					padding-top: 10px;
+					float: left;
+				
+				}
+				
+				#local-news {
+				    float: right;
+					border: 1px #BB4545 solid;
+					width: 220px;
+					padding: 5px 5px 0 10px;
+					margin: 5px 10px 0 0;
+				    
+				}
+				
+				#local-news a {
+				      color: white;
+					  text-decoration: none;
+					  font-size: 26px;
+					  position: relative;
+					  top: -12px;
+				
+				}
+				
+				#local-news a:hover {
+				    text-decoration: underline;
+				
+				}
+				
+				#local-news img {
+				    height: 40px;
+				
+				}
+			
+				#menu-bar-2-konteiners {
+				    background-color: #A91717;
+					width: 100%;
+				
+				}
+				
+				#menu-bar-2 {
+				    width: 1020px;
+					margin: 0 auto;
+					height: 40px;
+					
+				}
+				
+				#menu-bar-2 a {
+				   color: white;
+				   text-deoration: none;
+				   padding: 0 10px;
+				   border-right: 1px #BB4545 solid;
+				   position: relative;
+				   top: 11px;
+				
+				}
+				
+				#menu-bar-2 a:hover {
+				    text-decoration: underline;
+				}
+				.bez-linijas {
+				  border: none !important;
+				
+				}
+				
+				#bulta-leju {
+				   height: 10px;
+				   position: relative;
+				   top: 10px;
+				
+				}
+				
+				#lapas-ietvars {
+				    width: 1020px;
+					margin: 0 auto;
+				
+				}
+				
+				h2 {
+				    font-weight: normal;
+					font-size: 20px;
+					border-bottom: 2px solid #a91717;
+					width: 112px;
+				}
+				
+				h3 a { 
+				    color: black;
+					font-size: 30px;
+					text-decoration: none;
+				    
+				
+				
+				}
+				h3 a.hover {
+				      color: #1167a8:
+				
+				}
+				
+				#raksta-saturs {
+				     color: #5a5a5a;
+					 width: 250px;
+					 float: left;
+					
+				}
+				
+				#raksta-saturs img {
+				      height: 15px;
+					  position: relative;
+					  top: 1px;
+				
+				}
+				
+				#sadalas-saite {
+				     text-decoration: none;
+					 color: #a91717;
+				
+				}
+				
+				#sadalas-saite a:hover {
+                       color: #1167a8;
+				}
+				
+				#raksta-ietvars {
+				    float: left;
+					border-right: solid #CCCCCC;
+					padding-right: 20px;
+				}
+				#raksta-attels {
+				    width: 400px;
+					margin-left: 20px;
+				}
+				#raksta-hr {
+				   width: 50px;
+				   border-top: 1px solid #A91717;
+				   
+				}
+				
+				.raksta-saite {
+				    color: black;
+					text-decoration: none;
+				}
+				
+			
+		   </style>
+	  </head>
+
+      <body>
+        <div id="topbar"> 
+		    
+			<img id="logo" src="bbc-logo.png">
+			
+			<div id="signin-div" class="topbar-section">
+			
+			  <img id="signin-attels" src="signin-attels.png">
+			  
+			  <span id="signin-text">Sign in</span>
+			
+		</div>
+			
+
+			
+			<div id="zvans-div">
+			
+			       			<img id="bultlinija" src="bultlinija.png">
+							
+							<img id="zvans-attels" src="zvans.png">
+							
+							
+			</div>
+			
+			<div class="topbar-section topbar-menu">
+			   
+			   News
+			   
+			</div>
+			
+				<div class="topbar-section topbar-menu">
+			   
+			   Sports
+			   
+			</div>
+				<div class="topbar-section topbar-menu">
+			   
+			   Weather
+			   
+			</div>
+				<div class="topbar-section topbar-menu">
+			   
+			    iPlayer
+			   
+			</div>
+				<div class="topbar-section topbar-menu">
+			   
+			   TV
+			   
+			</div>
+				<div class="topbar-section topbar-menu">
+			   
+			   More
+			   
+			   <img  id="more-bulta"src="more-bulta.png">
+			   
+			</div>
+			<div class="topbar-section">
+			     <input id="search-box" type="text" value="Search">
+				 
+				 <input type="image" id="lupa" src="lupa.png">
+			
+			
+			</div>
+			
+			
+		</div>	
+		
+		<div class="clear"></div>
+		
+		<div id="menu-bar-konteiners">
+		
+		    <div id="menu-bar">
+			
+			    <h1>NEWS</h1>
+				
+				<div id="local-news">
+				
+				    <a href="">Find local news</a>
+				  
+				    <img src="pointer.png">
+				  
+				</div>
+			
+			
+			
+			</div>
+		
+		
+		</div>
+		
+		<div id="menu-bar-2-konteiners">
+		
+		    <div id="menu-bar-2"> 
+			
+			   <a href="">Sakums</a>
+			   
+			   <a href="">LV</a>
+			   
+			   <a href="">Pasaule</a>
+			   
+			   <a href="">Bizness</a>
+			   
+			   <a href="">Tehnika</a>
+			   
+			   <a href="">Zinatne</a>
+			   
+			   <a href="">Veseliba</a>
+			   
+			   <a href="">Izglitiba</a>
+			   
+			   <a href="">Kultura & Maksla</a>
+			   
+			   <a href="">Audio & Video</a>
+			   
+			   <a href="" class="bez-linijas">Vairak</a>
+			   
+			   <img src="bulta-leju.png" id="bulta-leju">
+			
+			
+			</div>
+		
+		</div>
+		
+		<div class="clear"></div>
+		
+		<div id="lapas-ietvars">
+
+             <div id="galvenais-raksts">
+			 
+			    <h2>Tehnologijas</h2>
+				<div id="raksta-ietvars">
+				
+				 <h3><a href="">Xiaomi Mi Note 10 apskats</a></h3>
+				
+				   <div id="raksta-saturs">
+				
+				    <p>Lai arī Xiaomi parasti nav dēvējams par pašu skaļāk dzirdamo viedtālruņu ražotāju, 
+					tomēr šajā rudenī Xiaomi nācis klajā ar vairākiem interesantiem paziņojumiem.
+					Viens no tiem bija Xiaomi Mi Mix Alpha viedtālrunis ar ekrānu, kas apliekts arī ap tā aizmugures daļu, 
+					bet tiek lēsts, ka šos viedtālruņus Xiaomi saražojis ļoti ierobežotā apjomā.
+					Daži uzskata, ka pirmais Mi Mix Alpha laidiens bijis vien 500 ierīces.</p>
+					
+					
+					<p><img src="pulkstens.png"> 30.marts 2020  <a href="" id="sadalas-saite">
+					Tehnologijas</a></p>
+					
+					<hr id="raksta-hr" align="left">
+					
+				    </div>	
+					<img id="raksta-attels" src="raksta_attels.png">
+					<p><a class="raksta-saite" href=""> Huawei Mate20 Pro</a></p>
+					<p><a class="raksta-saite" href=""> Samsung Galaxy s10 sērijai</a></p>
+				
+				
+				 </div>
+				 <img id="bbcc" src="bbcc.png">
+
+
+		</div>
+		
+	</body>
+
+</html>	
